@@ -41,7 +41,7 @@ cd myapp
 lein run :my.org/myapp :my.org.myapp/runtime
 ```
 
-You'll see it compile some ClojureScript, and then you can try it out by hitting `http://localhost:8080` in your browser.
+You'll see it compile some ClojureScript, and then you can try it out by hitting `http://localhost:8080/app/` in your browser.
 
 Note that the `enterprise-spa` template includes support for SCSS/SASS out of the box; the system will fail to start unless you have the `sassc` program installed and available on your path. `sassc` is readily available via your system's package manager.
 
